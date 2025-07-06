@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sartorial.tech – Bespoke Linux Infrastructure</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f1117;
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    h2 {
+      font-weight: normal;
+      color: #ccc;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .tagline {
+      font-style: italic;
+      color: #aaa;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .services {
+      max-width: 600px;
+      margin: auto;
+      text-align: left;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 1.5rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      transition: box-shadow 0.3s ease;
+    }
+    li:hover {
+      box-shadow: 0 0 10px #00ff88aa;
+    }
+    li a {
+      color: #00ff88;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-top: 0.25rem;
+    }
+    .terminal {
+      background-color: #1a1c23;
+      color: #00ff88;
+      font-family: monospace;
+      padding: 1rem;
+      margin-top: 3rem;
+      width: 80%;
+      max-width: 600px;
+      text-align: left;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #00ff8855;
+    }
+    .prompt::after {
+      content: '_';
+      animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.85rem;
+      color: #666;
+      text-align: center;
+    }
+    a {
+      color: #00ff88;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sartorial.tech</h1>
+  <h2>Crafted Infrastructure. Custom Fit.</h2>
+  <div class="tagline">No clouds. No compromises. Just tailored Linux systems, DNS-first and on-prem ready.</div>
+  <div class="services">
+    <ul>
+      <li>🧵 Custom-built Linux servers & on-prem deployments
+        <a href="#linux-servers">Learn more →</a>
+      </li>
+      <li>🔐 DNS & DNSSEC architecture, tuning, and monitoring
+        <a href="#dns-dnssec">Learn more →</a>
+      </li>
+      <li>📦 Lightweight, secure, infrastructure-as-code practices
+        <a href="#infra-as-code">Learn more →</a>
+      </li>
+      <li>🧭 Clear documentation and operational continuity
+        <a href="#documentation">Learn more →</a>
+      </li>
+      <li>🔓 No vendor lock-in – everything we build is understandable, modifiable, and yours to own
+        <a href="#no-lock-in">Learn more →</a>
+      </li>
+      <li>🛠️ Right to repair ethos – human-readable configs, no mystery boxes, no dark magic
+        <a href="#right-to-repair">Learn more →</a>
+      </li>
+      <li>📶 Rock-solid internet and Wi-Fi, using gear that actually works (not the ISP’s afterthought router)
+        <a href="#better-networking">Learn more →</a>
+      </li>
+    </ul>
+  </div>
+  <div class="terminal">
+    <div class="prompt">jonty@sartorial:~$</div>
+  </div>
+  <footer>
+    Built by a sysadmin who thinks like a tailor. Reach out: <a href="mailto:hello@sartorial.tech">hello@sartorial.tech</a>
+  </footer>
+</body>
+</html>
+
